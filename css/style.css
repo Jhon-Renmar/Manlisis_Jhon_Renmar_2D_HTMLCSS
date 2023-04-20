@@ -1,0 +1,189 @@
+body{
+	background-color: blue;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	padding: 10px;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+
+}
+
+div.header{
+	padding: 10px;
+	text-align: center;
+
+}
+
+div.navigation{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+div.navigation ul{
+	margin: 0px;
+	padding: 10px;
+
+}
+
+div.navigation ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+div.navigation ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+
+}
+
+div.navigation ul li a.active{
+	color: blue;
+
+}
+
+div.navigation ul li a:hover{
+	color: blue;
+
+}
+
+div.banner img{
+	width: 100%;
+	
+}
+
+div.main{
+	min-height:500px;
+
+}
+
+div.left-side-bar h2{
+	margin:0px; 
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+
+}
+
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+
+}
+
+div.left-side-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+div.left-side-bar ul li  {
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+
+}
+
+
+
+div.left-side-bar ul li a {
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+
+}
+
+div.left-side-bar ul li a:hover{
+	background-color: white;
+	color: black;
+
+}
+
+div.content h1 {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+
+}
+
+div.content {
+	width: 550px;
+	float:left;
+	min-height: 500px;
+	margin: 10px;
+
+}
+
+div.content p {
+	text-align: justify;
+	line-height: 1.5;
+
+}
+
+div.content ul {
+	text-align: justify;
+	line-height: 1.5;
+
+}
+
+div.right-side-bar {
+	width: 200px;
+	float:right;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 0px 10px;
+
+}
+
+div.right-side-bar a img {
+	width: 80%;
+	padding: 10px 10px 0px 20px;
+}
+
+div.footer {
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	
+
+}
+div.footer a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+
+}
+
+div.footer img {
+	padding:0px; 
+	margin: 0px;
+	width: 25px;
+	height: 25px;
+
+}
